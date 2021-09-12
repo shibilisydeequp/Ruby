@@ -80,7 +80,7 @@
             "required": true,
             "value": "^[.!;]"
         },
-        "Z_PINKY_AI": {
+        "Z_RUBY_AI": {
             "description": "turn on chat back auto reply pinky (use true to on and fale to off)",
             "required": true,
             "value": "true"
@@ -128,7 +128,7 @@
          "BOT_NAME": {
             "description": "heading for .list command reply",
             "required": false,
-            "value": "•━━━╼⤏PINKY BOT⤎╾━━━•"
+            "value": "•━━━╼⤏RUBY BOT⤎╾━━━•"
         },
         "HEROKU_API_KEY": {
             "description": "Herokuda API Keyiniz. Heroku API Key.",
