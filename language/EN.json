@@ -78,7 +78,7 @@
         },
         "heroku": {
             "RESTART_DESC": "Restart ruby",
-            "RESTART_MSG": "ʀᴇꜱᴛᴀʀᴛɪɴɢ ruby",
+            "RESTART_MSG": "Restarting ruby",
             "SHUTDOWN_DESC": "Shutdown ruby",
             "SHUTDOWN_MSG": "```Shutting down ⛔```",
             "DYNO_DESC": "Check heroku dyno usage",
