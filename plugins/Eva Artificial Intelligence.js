@@ -258,7 +258,7 @@ if (conf.LANG == 'ML') {
     succ_off = 'സെമി-ഫങ്ഷണൽ ആയി pinky സജ്ജമാക്കുക! കുറച്ച് കാത്തിരിക്കൂ! ☑️'
 }
 
-Asena.addCommand({ pattern: 'said ?(.*)', desc: fulleva_dsc, fromMe: true,dontAddCommandList: true, usage: '.said on / off' }, (async (message, match) => {
+Asena.addCommand({ pattern: 'ruby ?(.*)', desc: fulleva_dsc, fromMe: true,dontAddCommandList: true, usage: '.ruby on / off' }, (async (message, match) => {
     var pinky_status = `${conf.TALKING_PINKY}`
     if (match[1] == 'on') {
         if (pinky_status == 'true') {
