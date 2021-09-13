@@ -38,10 +38,7 @@ Project created by <a href="https://github.com/CYBER-DASHAMOOLAN">NABUHAN</a>
      </div>
 <br>
 <br >
-If Repl.it not working Try Termux for Qr scanning.Just Copy the Link Below in Termux
-```
-bash <(curl -L https://t.ly/tHxh)
-``` 
+
 
 ## F.A.Q
 Answer a few frequently asked questions;
