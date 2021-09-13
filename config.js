@@ -1,6 +1,6 @@
 /* Copyright (C) 2020 Yusuf Usta.
-re edited by afnan-plk  
-PINKY V2 
+re edited by nabuhan  
+Ruby 
 */
 
 const { Sequelize } = require('sequelize');
@@ -29,7 +29,7 @@ module.exports = {
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://i.hizliresim.com/loUtAb.jpg' : process.env.GAN_IMAGE,
     LANG: process.env.LANGUAGE === undefined ? 'TR' : process.env.LANGUAGE.toUpperCase(),
     ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
-    AFNN: process.env.TAG_REPLY === undefined ? '919072790587@s.whatsapp.net' : process.env.TAG_REPLY,
+    AFNN: process.env.TAG_REPLY === undefined ? '91938349160@s.whatsapp.net' : process.env.TAG_REPLY,
     KICKMEMSG: process.env.KICKME_MESSAGE === undefined ? 'default' : process.env.KICKME_MESSAGE,
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     ADDMSG: process.env.ADD_MESSAGE === undefined ? 'default' : process.env.ADD_MESSAGE,
