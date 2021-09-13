@@ -1,5 +1,4 @@
-<div align="center">
-##### 𝐑𝐔𝐁𝐘 𝐌𝐖𝐎𝐋
+## 𝐑𝐔𝐁𝐘 𝐌𝐖𝐎𝐋
 Simple whatsapp user bot 
 </div>
 
