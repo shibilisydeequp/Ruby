@@ -21,9 +21,8 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*Ruby bot by nabuhandbz*\n
 \n*owner number wa.me/918289836232*\n
 \n*CONTACT OWNER THROUGH social networks-https://www.instagram.com/im.naabu?r=nametag*\n
-\n*bot setting video : https://youtu.be/VR_ppqEl2q8*\n
+\n*bot setting video : https://youtu.be/dSGrhJZtu24*\n
 \n*githublink       https://github.com/nabuhandbz/ruby*\n
-\n*audio commads     https://github.com/nabuhandbz/ruby/tree/master/uploads*\n
 `}) 
 
 }));
