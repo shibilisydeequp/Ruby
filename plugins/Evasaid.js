@@ -255,11 +255,11 @@ if (conf.LANG == 'ML') {
     already_on = 'Ruby കൃത്രിമബുദ്ധി ഇതിനകം പൂർണ്ണമായി പ്രവർത്തിക്കുന്നു.'
     already_off = 'Ruby AI നിലവിൽ സെമി-ഫംഗ്ഷണൽ ആണ്.'
     succ_on = 'Ruby പൂർണ്ണമായും പ്രവർത്തനക്ഷമമായി തുറന്നു! കുറച്ച് കാത്തിരിക്കൂ! ✅'
-    succ_off = 'സെമി-ഫങ്ഷണൽ ആയി pinky സജ്ജമാക്കുക! കുറച്ച് കാത്തിരിക്കൂ! ☑️'
+    succ_off = 'സെമി-ഫങ്ഷണൽ ആയി Ruby സജ്ജമാക്കുക! കുറച്ച് കാത്തിരിക്കൂ! ☑️'
 }
 
 Asena.addCommand({ pattern: 'ruby ?(.*)', desc: fulleva_dsc, fromMe: true,dontAddCommandList: true, usage: '.ruby on / off' }, (async (message, match) => {
-    var pinky_status = `${conf.TALKING_PINKY}`
+    var pinky_status = `${conf.TALKING_RUBY}`
     if (match[1] == 'on') {
         if (pinky_status == 'true') {
             return await message.client.sendMessage(message.jid, '*' + already_on + '*', MessageType.text)
@@ -267,7 +267,7 @@ Asena.addCommand({ pattern: 'ruby ?(.*)', desc: fulleva_dsc, fromMe: true,dontAd
         else {
             await heroku.patch(baseURI + '/config-vars', { 
                 body: { 
-                    ['TALKING_PINKY']: 'true'
+                    ['TALKING_RUBY']: 'true'
                 } 
             });
             await message.client.sendMessage(message.jid, '*' + succ_on + '*', MessageType.text)
@@ -280,7 +280,7 @@ Asena.addCommand({ pattern: 'ruby ?(.*)', desc: fulleva_dsc, fromMe: true,dontAd
         else {
             await heroku.patch(baseURI + '/config-vars', { 
                 body: { 
-                    ['TALKING_PINKY']: 'false'
+                    ['TALKING_RUBY']: 'false'
                 } 
             });
             await message.client.sendMessage(message.jid, '*' + succ_off + '*', MessageType.text)
