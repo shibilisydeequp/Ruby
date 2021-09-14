@@ -60,7 +60,7 @@
             "required": true,
             "value": "false"
         },
-        "TALKING_PINKY": {
+        "TALKING_RUBY": {
             "description": "Hesabınızı bir Chatbot'a Çevirin! Turn your account into a chatbot!",
             "required": true,
             "value": "false"
